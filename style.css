@@ -1,0 +1,30 @@
+* {
+  margin: 0 auto;
+}
+
+body {
+  background-color: #000;
+}
+ 
+#videoWrapper {
+  margin-top: 100px;
+  height: 100%;
+  width: 100%;
+}
+
+div {
+  float: left;
+}
+
+.video {
+  width: 50%;
+  pointer-events: none;
+  float: left;
+}
+
+@media screen and (orientation:portrait) {
+  .video {
+    float: none;
+    width: 100%;
+  }
+}
